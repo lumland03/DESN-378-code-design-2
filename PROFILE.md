@@ -22,18 +22,18 @@ Update it once, keep it consistent everywhere.
 
 | Platform | Profile URL | Status |
 |----------|-------------|--------|
-| **GitHub** | https://github.com/lumland03 | ⏳ |
-| **Figma** | https://www.figma.com/@lumland | ⏳ |
-| **CodePen** | https://codepen.io/lumland03 | ⏳ |
+| **GitHub** | https://github.com/lumland03 | ✅ |
+| **Figma** | https://www.figma.com/@lumland | ✅ |
+| **CodePen** | https://codepen.io/lumland03 | ✅ |
 | **Portfolio** | *Coming Week 10* | 🔲 |
 
 ---
 
 ## Profile Photo
 
-- [ ] Same photo uploaded to GitHub, Figma, and CodePen
-- [ ] Professional or at least *intentional*
-- [ ] Face visible (helps me learn names!)
+- [x] Same photo uploaded to GitHub, Figma, and CodePen
+- [x] Professional or at least *intentional*
+- [] Face visible (helps me learn names!)
 
 ---
 
@@ -41,9 +41,9 @@ Update it once, keep it consistent everywhere.
 
 | Item | Status |
 |------|--------|
-| Applied/Renewed | ⏳ |
-| Copilot Access | ⏳ |
-| Expires | <!-- Date --> |
+| Applied/Renewed | ✅ |
+| Copilot Access | ✅ |
+| Expires |October 22, 2027|
 
 👉 [Check status or renew](https://education.github.com/pack)
 
@@ -53,9 +53,9 @@ Update it once, keep it consistent everywhere.
 
 | Item | Status |
 |------|--------|
-| Education Plan Active | ⏳ |
-| Joined Course Team | ⏳ |
-| Expires | <!-- Date --> |
+| Education Plan Active | ✅ |
+| Joined Course Team | ✅ |
+| Expires | ⏳ |
 
 👉 [Check status](https://www.figma.com/settings) → Plan
 
@@ -66,8 +66,7 @@ Update it once, keep it consistent everywhere.
 *Optional: A sentence or two about your design interests. This could seed your eventual portfolio bio.*
 
 <!-- 
-Example: "I'm drawn to motion design and systems thinking. 
-Currently exploring how interaction design can feel more human."
+Currently interested in the developement and design of websites. 
 -->
 
 ---
