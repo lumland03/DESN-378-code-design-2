@@ -9,10 +9,10 @@ Update it once, keep it consistent everywhere.
 
 | Field | Value |
 |-------|-------|
-| **Name** | <!-- First Last --> |
-| **Preferred Name** | <!-- What should I call you? --> |
-| **Pronouns** | <!-- Optional --> |
-| **EWU Email** | <!-- @ewu.edu --> |
+| **Name** | Landon Umland |
+| **Preferred Name** | Landon |
+| **Pronouns** | He/Him |
+| **EWU Email** |lumland@ewu.edu |
 
 ---
 
@@ -22,9 +22,9 @@ Update it once, keep it consistent everywhere.
 
 | Platform | Profile URL | Status |
 |----------|-------------|--------|
-| **GitHub** | `https://github.com/________` | ⏳ |
-| **Figma** | `@________` | ⏳ |
-| **CodePen** | `https://codepen.io/________` | ⏳ |
+| **GitHub** | https://github.com/lumland03 | ⏳ |
+| **Figma** | https://www.figma.com/@lumland | ⏳ |
+| **CodePen** | https://codepen.io/lumland03 | ⏳ |
 | **Portfolio** | *Coming Week 10* | 🔲 |
 
 ---
