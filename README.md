@@ -93,8 +93,8 @@ Use this as a starting point for YOUR README. Copy it, then make it yours:
 ```markdown
 # DESN 378: Code + Design 2
 
-🔗 **[Learning Log](https://yourusername.github.io/this repo-name)**
-🔗 **[DESN368 Portfolio](https://yourusername.github.io/desn368-portfolio-repo)** _FYI, this is just the URL to your repo; if it's still on Netlify, then use that. _
+🔗 **[Learning Log] https://lumland03.github.io/DESN-378-code-design-2/
+🔗 **[DESN368 Portfolio] https://lumland03.github.io/DESN368-code-design-workspace-lu/
 
 ---
 
