@@ -7,7 +7,9 @@
 // =============================================
 
 console.log('Portfolio loaded');
+alert( "Hello World" );
 
+// Week 0: Hellow World
 // Week 1: You'll add theme toggle code here
 // Week 2: You'll add localStorage persistence here
 // Week 3+: More to come...
