@@ -9,16 +9,16 @@
 // --------------------------------------------
 console.log("Hello internet!");
 // Add your custom greeting below:
-​
+
 console.log("Hello! I miss my dogs")
-​
+
 // --------------------------------------------
 // EXERCISE 2: THE CONSOLE
 // Your favorite food
 // --------------------------------------------
-​
+
 console.log("🍎 MY FAVORITE FOOD IS APPLES")
-​
+
 // --------------------------------------------
 // EXERCISE 3: LETTER TREE
 // The pattern: a, b c, d e f, g h i j, k
