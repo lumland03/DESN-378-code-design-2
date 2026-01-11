@@ -6,8 +6,7 @@
 // as you learn to make the web behave.
 // =============================================
 
-console.log('Portfolio loaded');
-alert( "Hi Travis" );
+
 
 // Week 0: Hellow World
 // Week 1: You'll add theme toggle code here
