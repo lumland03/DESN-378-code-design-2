@@ -19,17 +19,44 @@ This is my workspace for **DESN 378 Code + Design 2** also known as **Web Design
 | 1 | The System | Design tokens + theme switching | 🔲 |
 
 ---
-
-## Learning Log
-
-Update this section each week with observations, breakthroughs, and questions.
-
-### Week 1: Systems That Respond
-*Coming soon...*
-
-### Week 2: Remembering Choices
-*Coming soon...*
-
+# Learning Log
+​
+## Week 0
+​
+### What I Learned
+I learned the basics of JavaScript. I learned how to declare variables using let and const, and how to add to scripts and combine them.
+​
+​
+### What Was Hard
+The hard part was trying to understand how different things worked. Learning different commands or code things was also difficult. Trying to manage my mental 
+workload was also a challenge between other classes. 
+​
+​
+### How I Used AI
+I did not (because I am dumb and also stubborn)
+​
+​
+### What's Still Unclear
+I need to reinforce what I already know, and start to commit different functions to memory. I am still hazy on some of the code from some of the assignments, and need to
+understand rather than just look at it and pretend that I totally understand. I took notes, but I haven't yet memorized the concepts that I wrote down. ​
+​
+### Work Completed (Week 0)
+​
+**Engage**
+- [X] Portfolio Audit
+​
+**Learn**
+- [ ] Console Explorer
+- [X] Codedex Console Fundamentals
+​
+**Reflect**
+- [X] Visual Notes: Variables and Strings
+​
+**Build**
+- [X] The Setup
+- [X] The Behavioral Layer
+​
+---
 ---
 
 ## Quick Links
