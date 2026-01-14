@@ -117,7 +117,7 @@ body{
     width: 100vw;
     margin: 0;
     object-fit: cover;
-    background-image: url("../images/topo-bg.png");
+    background-image: url("../assets/images/topo-bg.png");
     background-size: 100% auto;
     min-height: 100vh;
 }
