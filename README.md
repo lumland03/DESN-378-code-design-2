@@ -1,7 +1,7 @@
 # DESN 378: Code + Design 2
 
 🔗 **[Learning Log] https://lumland03.github.io/DESN-378-code-design-2/
-🔗 **[DESN368 Portfolio] https://lumland03.github.io/DESN368-code-design-workspace-lu/
+🔗 **[DESN368 Portfolio] https://lumland03.github.io/DESN-378-code-design-2/week-1/portfolio/index.html
 
 ---
 
