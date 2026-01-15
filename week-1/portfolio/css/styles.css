@@ -411,8 +411,8 @@ header button{
   font-size: .75rem;
     margin: .1rem;
     padding: .75rem;
-    margin-left: .25rem;
-    margin-right: .25rem;
+    margin-left: .15rem;
+    margin-right: .15rem;
     font-family: var(--body-font);
     background-color: var(--topo-color);
     border: none;
@@ -491,6 +491,7 @@ section p{
 
 .bio-group{
   display: flex;
+  flex-direction: row;
   gap: 1rem;
   flex-grow: 1;
 
@@ -533,13 +534,13 @@ section p{
 }
 
 #recipe{
-    background-image: url("../images/recipe-tb.png");
+    background-image: url("../assets/images/recipe-tb.png");
     border: .5rem var(--dark-teal) solid;
     background-size: 200%;
     background-repeat: no-repeat;
 }
 #tribute{
-    background-image: url("../images/tribute-tb.png");
+    background-image: url("../assets/images/tribute-tb.png");
     object-fit: fill;
     border: .5rem var(--dark-teal) solid;
     background-size: 200%;
@@ -547,14 +548,14 @@ section p{
     background-position: 50%;
 }
 #guide{
-    background-image: url("../images/guide-tb.png");
+    background-image: url("../assets/images/guide-tb.png");
     border: .5rem var(--dark-teal) solid;
     background-size: 200%;
     background-position: 60%;
     background-repeat: no-repeat;
 }
 #landing {
-    background-image: url("../images/landing-tb.png");
+    background-image: url("../assets/images/landing-tb.png");
     border: .5rem var(--dark-teal) solid;
     background-size: 200%;
     background-repeat: no-repeat;
