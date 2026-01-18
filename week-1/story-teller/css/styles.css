@@ -1,0 +1,88 @@
+
+
+
+/*MADE WITH AI */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #cfcfcf;
+}
+
+.story-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.story-image {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.story-image img {
+  max-width: 100%;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: transform 0.2s;
+}
+
+.story-image img:hover {
+  transform: scale(1.02);
+}
+
+.story-text {
+  text-align: center;
+  margin-bottom: 2rem;
+  min-height: 60px;
+}
+
+#story-caption {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+.story-progress {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ddd;
+  transition: background 0.3s;
+}
+
+.dot.active {
+  background: #003147;
+}
+
+#reset-button {
+  display: none;
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background: #003147;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#reset-button:hover {
+  background: #005f7a;
+}
+
+

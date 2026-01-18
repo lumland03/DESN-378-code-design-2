@@ -1,15 +1,15 @@
 // Find elements
 const image = document.querySelector('.story-image img');
 const caption = document.querySelector('#story-caption');
-
+const resetButton = document.querySelector('#reset-button');
 // Story content
 const captions = [
-  "Click the image to begin...",
-  "Chapter 1: The beginning...",
-  "Chapter 2: The journey...",
-  "Chapter 3: The challenge...",
-  "Chapter 4: The turning point...",
-  "Chapter 5: The resolution..."
+  "The Story of MLK Jr. \nClick the image to begin...",
+  "Growing up in Atlanta he faced racial segregation, but he grew up with the strong Christian values instilled by his family.",
+  "He took after his father and became a pastor, and also an activist for civil rights.",
+  "After many peaceful protests he would go on to deliver his famous 'I Have a Dream' speech in Washington D.C.",
+  "Unfortunately, his life was cut short when he was assassinated in 1968. The place where he was shot is now a National Historic Site.",
+  "His legacy continues to inspire people around the world to fight for equality and justice. His birthday is now celebrated as a national holiday in the United States."
 ];
 
 // Track current step
@@ -24,11 +24,16 @@ image.addEventListener('click', function() {
     caption.textContent = captions[currentStep];
 
     // Update image
-    image.src = `assets/images/image-${currentStep + 1}.jpg`;
+    image.src = `assets/images/image-${currentStep}.jpg`;
 
     // Update progress dots
-    updateProgress(currentStep);
+     updateProgress(currentStep);
+  
+    // Story is complete - show reset button
+  if (currentStep === 5) {
+   resetButton.style.display = 'block';
   }
+  }   
 });
 
 function updateProgress(step) {
@@ -41,4 +46,10 @@ function updateProgress(step) {
     }
   });
 }
-
+resetButton.addEventListener('click', function() {
+  currentStep = 0;
+  caption.textContent = captions[0];
+  image.src = `assets/images/image-0.jpg`;
+  updateProgress(0);
+  resetButton.style.display = 'none';
+});
