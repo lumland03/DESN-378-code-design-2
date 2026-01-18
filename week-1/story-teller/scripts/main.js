@@ -4,7 +4,7 @@ const caption = document.querySelector('#story-caption');
 const resetButton = document.querySelector('#reset-button');
 // Story content
 const captions = [
-  "The Story of MLK Jr. \nClick the image to begin...",
+  "The Story of MLK Jr. Click the image to begin...",
   "Growing up in Atlanta he faced racial segregation, but he grew up with the strong Christian values instilled by his family.",
   "He took after his father and became a pastor, and also an activist for civil rights.",
   "After many peaceful protests he would go on to deliver his famous 'I Have a Dream' speech in Washington D.C.",
