@@ -18,3 +18,21 @@ I used a lot of AI to understand why some code worked and some did not. It was h
 <!-- What questions do you still have? What needs more practice? -->
 I just need to reinforce the basics and the rest will come with time and practice. ​
 ​
+### Work Completed (Week 1)
+
+**Engage**
+- [X] VS Code Theme Setup
+
+**Learn**
+- [X] Codedex.io Variables
+- [X] HTML Academy 
+
+**Practice**
+- [X] The Story Teller
+
+**Build**
+- [X] Portfolio Migration
+- [X] Portfolio in Figma + Style Tile
+
+**Reflect**
+- [X] Visual Notes: Week 1---
