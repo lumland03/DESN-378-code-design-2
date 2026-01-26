@@ -120,6 +120,7 @@ body{
     background-image: url("../assets/images/topo-bg.png");
     background-size: 100% auto;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 html{
@@ -142,7 +143,7 @@ header{
     justify-content: space-between;
     box-shadow: .5rem .5rem 2rem #000;
     z-index: 1000;
-    overflow-y: visible;
+    overflow-y: hidden;
     
 }
 
@@ -652,6 +653,7 @@ footer p{
 
   
 }
+
 
 
 
