@@ -1,15 +1,41 @@
-# Week 2: The Memory
+# Learning Log
+​
+## Week 2
+​
+### What I Learned
+Reinforced the JavaScript I knew and learned some new commands like && || and <= = >=
+​
+​
+### What Was Hard
+Mainly frustrated with my typing and making simple mistakes like typing %% instead of &&. 
 
-Add your Week 2 work here.
+​
+​
+### How I Used AI
+I used AI to ask quetions like why is my code not working or what I was missing to get something to work, like in the switch assignment. 
+​
+​
+### What's Still Unclear
+My brain still struggles with how JS and CSS can refer to eachother and how they can interact. 
+Don't quite understand how JS toggles CSS and can swap back and forth between different states. 
+​
+​
 
-## What to include
+### Work Completed (Week 2)
 
-- Assignment submissions
-- Experiments and explorations
-- Notes and reflections
+**Engage**
+- [X] VS Code Theme Setup
 
-## This week's focus
+**Learn**
+- [X] Codedex.io Conditionals
+- [X] figma variables
 
-- `localStorage` for persistence
-- `prefers-color-scheme` detection
-- `prefers-reduced-motion` accessibility
+**Practice**
+- [X] The Switch
+
+**Build**
+- [X] The Foundation
+- [X] Portfolio in Figma + Style Tile
+
+**Reflect**
+- [ ] Visual Notes: Week 2--- Working on 
