@@ -1,0 +1,133 @@
+.Brand Colors{
+  --MainColors__Brand:#00111a;
+  --MainColors__BrandTeal:#003147;
+  --MainColors__BrandAccent:#315a5e;
+  --MainColors__Neutrals__GrayLight:var(--primary/grey-20);
+  --MainColors__Neutrals__GrayDark:var(--primary/grey-40);
+  --MainColors__BGcolors__LightBg:#fdfdfd;
+  --MainColors__BGcolors__DarkBg:#282828;
+  --MainColors__Neutrals__DarkModeElementBg:#191919;
+  --MainColors__Neutrals__LightModeElementBg:#d9d9d9;
+  --MainColors__HeadFootText:#eeeeee;
+  --MainColors__BodyText:#111111;
+}
+.Primitve{
+  --primary__grey00:#ffffff;
+  --primary__grey10:#dddddd;
+  --primary__grey20:#aeaeae;
+  --primary__grey30:#828282;
+  --primary__grey40:#646464;
+  --primary__grey50:#292929;
+  --primary__grey60:#212121;
+  --primary__grey70:#191919;
+  --primary__grey80:#101010;
+  --primary__grey90:#000000;
+  --red__red10:#ffe0d5;
+  --red__red20:#ffc1ac;
+  --red__red30:#ffa282;
+  --red__red40:#ff8359;
+  --red__red50:#ff642f;
+  --red__red60:#cd5026;
+  --red__red70:#9b3d1c;
+  --red__red80:#6a2913;
+  --red__red90:#381609;
+}
+.Typography{
+  --NavButtons__Nav1:Bio;
+  --Headings__Title:Landon Umland - Portfolio;
+  --NavButtons__Nav3:Socials;
+  --NavButtons__Nav2:Projects;
+  --Headings__Section1:Biography;
+  --Headings__Section2:Projects;
+  --NavButtons__Nav4:Github;
+  --NavButtons__Nav5:LinkedIn;
+  --TextWeightDefault:regular;
+  --FontFamilyHeadings:Josefin Sans;
+  --FontFamilyBody:Lexend;
+}
+.Sizes{
+  --S:16;
+  --XS:8;
+  --M:24;
+  --L:32;
+  --XL:40;
+  --XXL:48;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styles ------------------*/
+.DarkBlue{
+  background: #00111a;
+}
+.Lgray{
+  background: #a1a1a1;
+}
+.DGray{
+  background: #555555;
+}
+.DarkBlueGreen{
+  background: #003147;
+}
+.BlueGreen{
+  background: #004566;
+}
+.DarkTeal{
+  background: #006653;
+}
+.Blue{
+  background: #001366;
+}
+.BGtopographical{
+  background: #315a5e;
+}
+.Title{
+  font-size: 48px;
+  font-family: Landon Umland - Portfolio, sans-serif;
+  font-weight: 400;
+}
+.NavText{
+  font-size: 16px;
+  font-family: Josefin Sans, sans-serif;
+  font-weight: 400;
+}
+.BodyText{
+  font-size: 16px;
+  font-family: Lexend, sans-serif;
+  font-weight: 400;
+}
+.CardTitles{
+  font-size: 32px;
+  font-family: Lexend, sans-serif;
+  font-weight: 400;
+}
+.SectionTitles{
+  font-size: 40px;
+  font-family: Josefin Sans, sans-serif;
+  font-weight: 400;
+}
+.CardBody{
+  font-size: 24px;
+  font-family: Lexend, sans-serif;
+  font-weight: 400;
+}
