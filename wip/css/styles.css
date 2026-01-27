@@ -1,8 +1,117 @@
-@import "../css/variables.css"
+@import "/wip/css/variables.css";
 
-
+*{
+  overflow-x: hidden;
+}
 
 /* STYLES */
 
+body {
+  background-color: var(--MainColors__BGcolors__LightBg);
+  color: var(--MainColors__BodyText);
+  font-family: var(--font-primary);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+header{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  position: sticky;
+  top: 0;
+  background-color: var( --MainColors__Brand);
+  color: var(--MainColors__HeadFootText);
+  flex-wrap: wrap;
+  background-image: url("/wip/assets/images/topo-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  
+}
+
+.main-headings{
+  text-align: left;
+  padding: 2rem;
+}
 
 
+
+
+h1{
+  font-family: "Josefin Sans", sans-serif;
+  font-size: var(--XXL);
+  margin: 0;
+}
+
+h2, h3{
+  font-family: "Josefin Sans", sans-serif;
+  font-size: var(--L);
+}
+
+nav{
+  display: flex;
+  padding: 3rem;
+  margin-left: auto;
+  width: fit-content;
+}
+
+
+main{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  max-width: 70%;
+}
+
+
+.page-line{
+  border-top: 4px solid var(--MainColors__BrandAccent);
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+
+p{
+  font-family: "Lexend", sans-serif;
+  font-size: var(--M);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+#bio{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+#bio p{
+  width 90%;
+  padding-right: 10rem;
+  margin-top: 2rem;
+}
+
+.image-me{
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  max-width: 300px;
+}
+
+footer{
+  background-color: var( --MainColors__Brand);
+  color: var(--MainColors__HeadFootText);
+  background-image: url("/wip/assets/images/topo-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 4rem;
+  bottom:0;
+  position: relative;
+  overflow: hidden;
+}

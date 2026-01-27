@@ -11,7 +11,7 @@
   --MainColors__HeadFootText:#eeeeee;
   --MainColors__BodyText:#111111;
 }
-.Primitve{
+:root{
   --primary__grey00:#ffffff;
   --primary__grey10:#dddddd;
   --primary__grey20:#aeaeae;
@@ -34,16 +34,16 @@
   --NavButtons__Nav4:Github;
   --NavButtons__Nav5:LinkedIn;
   --TextWeightDefault:regular;
-  --FontFamilyHeadings:Josefin Sans;
-  --FontFamilyBody:Lexend;
+  --FontFamilyHeadings:"Josefin Sans, sans-serif";
+  --FontFamilyBody:"Lexend, sans-serif";
 }
-.Sizes{
-  --S:16;
-  --XS:8;
-  --M:24;
-  --L:32;
-  --XL:40;
-  --XXL:48;
+:root{
+  --S:1rem;
+  --XS:.5rem;
+  --M:1.5rem;
+  --L:2rem;
+  --XL:2.5rem;
+  --XXL:3rem;
 }
 
 
