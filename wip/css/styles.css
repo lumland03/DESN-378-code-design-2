@@ -22,9 +22,8 @@ body {
 
 body.dark{
   background-color: var(--MainColors__BGcolors__DarkBg);
-  color: var(--MainColors__BodyTextDark)  ;
+  color: var(--MainColors__HeadFootText) ;
 }
-
 
 
 
@@ -104,7 +103,7 @@ p{
 }
 
 #bio p{
-  width 90%;
+  width: 90%;
   padding-right: 10rem;
   margin-top: 2rem;
 }
