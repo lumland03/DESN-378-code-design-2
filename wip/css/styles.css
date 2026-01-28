@@ -4,6 +4,11 @@
   overflow-x: hidden;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+
 /* STYLES */
 
 body {
@@ -14,6 +19,16 @@ body {
   padding: 0;
   height: 100vh;
 }
+
+body.dark{
+  background-color: var(--MainColors__BGcolors__DarkBg);
+  color: var(--MainColors__BodyTextDark)  ;
+}
+
+
+
+
+
 
 header{
   display: flex;
