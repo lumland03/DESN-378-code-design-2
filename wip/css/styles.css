@@ -1,4 +1,4 @@
-@import "/wip/css/variables.css";
+@import "../wip/css/variables.css";
 
 *{
   overflow-x: hidden;
@@ -38,7 +38,7 @@ header{
   background-color: var( --MainColors__Brand);
   color: var(--MainColors__HeadFootText);
   flex-wrap: wrap;
-  background-image: url("/wip/assets/images/topo-bg.png");
+  background-image: url("../wip/assets/images/topo-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -118,7 +118,7 @@ p{
 footer{
   background-color: var( --MainColors__Brand);
   color: var(--MainColors__HeadFootText);
-  background-image: url("/wip/assets/images/topo-bg.png");
+  background-image: url("../wip/assets/images/topo-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
