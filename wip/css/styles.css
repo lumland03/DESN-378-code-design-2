@@ -20,14 +20,14 @@ body {
   height: 100vh;
 }
 
-body.dark{
-  background-color: var(--MainColors__BGcolors__DarkBg);
-  color: var(--MainColors__HeadFootText) ;
+
+[data-theme="dark"]{
+  --MainColors__Bg: #282828;
 }
 
-
-
-
+[data-theme="light"]{
+  --MainColors__Bg: #fdfdfd;
+}
 
 header{
   display: flex;
