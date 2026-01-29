@@ -12,7 +12,7 @@ html{
 /* STYLES */
 
 body {
-  background-color: var(--MainColors__BGcolors__LightBg);
+  background-color: var(--MainColors__Bg);
   color: var(--MainColors__BodyText);
   font-family: var(--font-primary);
   margin: 0;
@@ -23,10 +23,12 @@ body {
 
 [data-theme="dark"]{
   --MainColors__Bg: #282828;
+  --MainColors__BodyText: #eee;
 }
 
 [data-theme="light"]{
   --MainColors__Bg: #fdfdfd;
+  --MainColors__BodyText: #111111;
 }
 
 header{
