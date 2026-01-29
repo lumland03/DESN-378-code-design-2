@@ -13,6 +13,7 @@ if (savedTheme) {
     document.documentElement.dataset.theme = 'light';
   }
 }
+const toggle = document.querySelector('.theme-toggle');
 
 toggle.addEventListener('click', function() {
   const currentTheme = document.documentElement.dataset.theme;
