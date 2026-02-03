@@ -1,13 +1,11 @@
 @import "../css/variables.css";
 
-*{
-  overflow-x: hidden;
-}
 
 html{
   scroll-behavior: smooth;
 }
-
+/* Add near the top of the file */
+* { box-sizing: border-box; }
 
 /* STYLES */
 
@@ -50,6 +48,7 @@ header{
   margin-right: auto;
   position: sticky;
   top: 0;
+  left: 0;
   background-color: var( --MainColors__Brand);
   color: var(--MainColors__HeadFootText);
   flex-wrap: wrap;
@@ -155,7 +154,7 @@ p{
 
 #bio p{
   width: 90%;
-  padding-right: 10rem;
+  padding-right: 2rem;
   margin-top: 2rem;
 }
 
@@ -163,9 +162,11 @@ p{
   display: flex;
   justify-content: center;
   flex-shrink: 0;
-  max-width: 300px;
 }
-
+.image-me img{
+  width: 300px;
+  border-radius: 1rem;
+}
 /* Project Box Styles ------------------*/
 
 /*#projects{
@@ -243,6 +244,7 @@ p{
 
 
 footer{
+  display: block;
   background-color: var( --MainColors__Brand);
   color: var(--MainColors__HeadFootText);
   background-image: url("../assets/images/topo-bg.png");
@@ -264,15 +266,25 @@ footer{
   background-color: transparent;
 }
 
-#socials{
-  background-color: var(--MainColors__BrandAccent);
-  color: var(--MainColors__HeadFootText);
-  border: none;
-  padding: 1rem;
-  font-size: var(--M);
-  font-family: "Josefin Sans", sans-serif;
-  cursor: pointer;
-  border-radius: .5rem;
-  margin: .5rem;
-  color: var(--MainColors__HeadFootText);
+
+  #socials{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    background-color: var(--MainColors__BrandAccent);
+    padding: var(--M);
+    border-radius: .5rem;
+    margin: auto;
+    width: fit-content;
+    font-family: "lexend", sans-serif;
+    font-size: var(--M);
+  }
+  
+
+
+/* Mobile Styles ------------------*/
+
+@mobile (max-width: 768px) {
+  
+
 }
