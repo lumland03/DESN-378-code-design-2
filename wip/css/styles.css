@@ -309,6 +309,7 @@ h3{
 
 nav{
   display: flex;
+  flex-wrap: wrap;
   padding: var(--L);
   margin-left: auto;
   width: fit-content;
@@ -356,9 +357,9 @@ main{
 
 p{
   font-family: var(--FontFamilyBody);
-  font-size: var(--XS);
+  font-size: var(--XXS);
   line-height: 1.6;
-  margin-bottom: var(--M);
+  margin-bottom: var(--S);
 }
 
 #bio{

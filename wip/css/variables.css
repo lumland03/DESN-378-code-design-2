@@ -42,6 +42,7 @@
 /* Spacing/Sizing Variables ------------------*/
 
 :root{
+  --XXS:.25rem;
   --S:1rem;
   --XS:.5rem;
   --M:1.5rem;
