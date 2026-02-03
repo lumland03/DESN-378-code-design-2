@@ -38,6 +38,9 @@
   --FontFamilyHeadings:"Josefin Sans", sans-serif;
   --FontFamilyBody:"Lexend", sans-serif;
 }
+
+/* Spacing/Sizing Variables ------------------*/
+
 :root{
   --S:1rem;
   --XS:.5rem;
