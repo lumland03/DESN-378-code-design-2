@@ -25,7 +25,7 @@
   --primary__grey90:#000000;
 
 }
-.Typography{
+:root{
   --NavButtons__Nav1:Bio;
   --Headings__Title:Landon Umland - Portfolio;
   --NavButtons__Nav3:Socials;
@@ -35,8 +35,8 @@
   --NavButtons__Nav4:Github;
   --NavButtons__Nav5:LinkedIn;
   --TextWeightDefault:regular;
-  --FontFamilyHeadings:"Josefin Sans, sans-serif";
-  --FontFamilyBody:"Lexend, sans-serif";
+  --FontFamilyHeadings:"Josefin Sans", sans-serif;
+  --FontFamilyBody:"Lexend", sans-serif;
 }
 :root{
   --S:1rem;
@@ -45,9 +45,13 @@
   --L:2rem;
   --XL:2.5rem;
   --XXL:3rem;
+  --XXXL:4rem;
+  --FXL:5rem;
 }
 
-
+:root{
+  
+}
 
 
 

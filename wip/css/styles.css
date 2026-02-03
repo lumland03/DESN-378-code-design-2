@@ -62,29 +62,29 @@ header{
 
 .main-headings{
   text-align: left;
-  padding: 2rem;
+  padding: var(--L);
   padding-bottom: 0;
 }
 
 
 h1{
-  font-family: "Josefin Sans", sans-serif;
+  font-family: var(--FontFamilyHeadings);
   font-size: var(--XXL);
   margin: 0;
 }
 
 h2, h3{
-  font-family: "Josefin Sans", sans-serif;
+  font-family: var(--FontFamilyHeadings);
   font-size: var(--L);
 }
 
 h3{
-  padding: 1rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding: var(--S);
+  padding-left: var(--M);
+  padding-right: var(--M);
   width: fit-content;
   background-color: var(--MainColors__Neutrals__DarkModeElementBg);
-  border-radius: .5rem;
+  border-radius: var(--XS);
 }
 
 
@@ -92,10 +92,10 @@ h3{
 
 nav{
   display: flex;
-  padding: 3rem;
+  padding: var(--XXL);
   margin-left: auto;
   width: fit-content;
-  gap: 1rem;
+  gap: var(--S);
   height: fit-content;
 }
 
@@ -103,11 +103,11 @@ nav button{
   background-color: var(--MainColors__BrandAccent);
   color: var(--MainColors__HeadFootText);
   border: none;
-  padding: 1rem;
+  padding: var(--S);
   font-size: var(--M);
   font-family: "Josefin Sans", sans-serif;
   cursor: pointer;
-  border-radius: .5rem;
+  border-radius: var(--XS);
 }
 
 
@@ -125,37 +125,37 @@ a{
 main{
   margin-left: auto;
   margin-right: auto;
-  padding: 2rem;
+  padding: var(--L);
   max-width: 70%;
 }
 
 
 .page-line{
   border-top: 4px solid var(--MainColors__BrandAccent);
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-top: var(--XXXL);
+  margin-bottom: var(--XXXL);
 }
 
 
 p{
-  font-family: "Lexend", sans-serif;
+  font-family: var(--FontFamilyBody);
   font-size: var(--M);
   line-height: 1.6;
-  margin-bottom: 1.5rem;
+  margin-bottom: var(--M);
 }
 
 #bio{
   display: flex;
   flex-direction: row;
   width: 100%;
-  gap: 2rem;
+  gap: var(--L);
   align-items: flex-start;
 }
 
 #bio p{
   width: 90%;
-  padding-right: 2rem;
-  margin-top: 2rem;
+  padding-right: var(--L);
+  margin-top: var(--L);
 }
 
 .image-me{
@@ -165,7 +165,7 @@ p{
 }
 .image-me img{
   width: 300px;
-  border-radius: 1rem;
+  border-radius: var(--S);
 }
 /* Project Box Styles ------------------*/
 
@@ -202,7 +202,7 @@ p{
 #projects{
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
-  gap: 2rem;
+  gap: var(--L);
   width: 100%;
   justify-content: flex-start;
   align-items: center;
@@ -215,12 +215,12 @@ p{
 
 .project-box div{
   background-color: var(--MainColors__Neutrals__DarkModeElementBg);
-  padding: 1rem;
-  border-radius: .5rem;
+  padding: var(--S);
+  border-radius: var(--XS);
   width: fit-content;
   margin-bottom: 0;
   font-size: var(--M);
-  font-family: "lexend", sans-serif;
+  font-family: var(--FontFamilyBody)
   
 }
 
@@ -252,8 +252,8 @@ footer{
   background-size: cover;
   width: 100%;
   text-align: center;
-  padding: 2rem;
-  margin-top: 4rem;
+  padding: var(--L);
+  margin-top: var(--XXXL);
   bottom:0;
   position: relative;
   overflow: hidden;
@@ -270,13 +270,13 @@ footer{
   #socials{
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: var(--FXL);
     background-color: var(--MainColors__BrandAccent);
     padding: var(--M);
-    border-radius: .5rem;
+    border-radius: var(--XS);
     margin: auto;
     width: fit-content;
-    font-family: "lexend", sans-serif;
+    font-family: var(--FontFamilyBody);
     font-size: var(--M);
   }
   
