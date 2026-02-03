@@ -105,7 +105,7 @@ nav button{
   border: none;
   padding: var(--S);
   font-size: var(--M);
-  font-family: "Josefin Sans", sans-serif;
+  font-family: var(--FontFamilyBody);
   cursor: pointer;
   border-radius: var(--XS);
 }
@@ -169,33 +169,6 @@ p{
 }
 /* Project Box Styles ------------------*/
 
-/*#projects{
-  display: flex; 
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: flex-start;
-}
-
-
-
-.project-box div{
-  background-color: var(--MainColors__Neutrals__DarkModeElementBg);
-  padding: 1rem;
-  border-radius: .5rem;
-  width: fit-content;
-  margin-bottom: var(--M);
-  font-size: var(--M);
-  font-family: "lexend", sans-serif;
-}
-
-.project-line{
-  border-top: 2px solid var(--MainColors__BrandAccent);
-  margin-top: var(--M);
-  margin-bottom: var(--M);
-  margin: auto;
-  width: 90%;
-}
 
 
 */
@@ -286,5 +259,207 @@ footer{
 
 @mobile (max-width: 768px) {
   
+  header{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: var( --MainColors__Brand);
+  color: var(--MainColors__HeadFootText);
+  flex-wrap: wrap;
+  background-image: url("../assets/images/topo-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding:0;
+  
+}
 
+.main-headings{
+  text-align: left;
+  padding: var(--S);
+  padding-bottom: 0;
+}
+
+
+h1{
+  font-family: var(--FontFamilyHeadings);
+  font-size: var(--L);
+  margin: 0;
+}
+
+h2, h3{
+  font-family: var(--FontFamilyHeadings);
+  font-size: var(--S);
+}
+
+h3{
+  padding: var(--S);
+  padding-left: var(--M);
+  padding-right: var(--M);
+  width: fit-content;
+  background-color: var(--MainColors__Neutrals__DarkModeElementBg);
+  border-radius: var(--XS);
+}
+
+
+/* Navigation Styles ------------------*/
+
+nav{
+  display: flex;
+  padding: var(--L);
+  margin-left: auto;
+  width: fit-content;
+  gap: var(--S);
+  height: fit-content;
+}
+
+nav button{
+  background-color: var(--MainColors__BrandAccent);
+  color: var(--MainColors__HeadFootText);
+  border: none;
+  padding: var(--S);
+  font-size: var(--XS);
+  font-family: var(--FontFamilyBody);
+  cursor: pointer;
+  border-radius: var(--XS);
+}
+
+
+a{
+  text-decoration: none;
+  color: var(--MainColors__HeadFootText)
+}
+
+
+
+
+
+
+
+main{
+  margin-left: auto;
+  margin-right: auto;
+  padding: var(--S);
+  max-width: 95%;
+}
+
+
+.page-line{
+  border-top: 4px solid var(--MainColors__BrandAccent);
+  margin-top: var(--XXXL);
+  margin-bottom: var(--XXXL);
+}
+
+
+p{
+  font-family: var(--FontFamilyBody);
+  font-size: var(--XS);
+  line-height: 1.6;
+  margin-bottom: var(--M);
+}
+
+#bio{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: var(--S);
+  align-items: flex-start;
+}
+
+#bio p{
+  width: 90%;
+  padding-right: var(--S);
+  margin-top: var(--S);
+}
+
+.image-me{
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.image-me img{
+  width: 30px;
+  border-radius: var(--S);
+}
+/* Project Box Styles ------------------*/
+
+
+*/
+#projects{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gap: var(--S);
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+
+.project-box{
+  display: contents;
+}
+
+.project-box div{
+  background-color: var(--MainColors__Neutrals__DarkModeElementBg);
+  padding: var(--S);
+  border-radius: var(--XS);
+  width: fit-content;
+  margin-bottom: 0;
+  font-size: var(--XS);
+  font-family: var(--FontFamilyBody)
+  
+}
+
+
+
+#projects a {
+  color: var(--MainColors__BodyText);
+}
+
+
+
+
+/* Footer Styles ------------------*/
+
+
+
+footer{
+  display: block;
+  background-color: var( --MainColors__Brand);
+  color: var(--MainColors__HeadFootText);
+  background-image: url("../assets/images/topo-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+  padding: var(--S);
+  margin-top: var(--XL);
+  bottom:0;
+  position: relative;
+  overflow: hidden;
+}
+
+#foot-head{
+  text-align: center;
+  margin: auto;
+  margin-bottom: var(--L);
+  background-color: transparent;
+}
+
+
+  #socials{
+    display: flex;
+    justify-content: center;
+    gap: var(--FXL);
+    background-color: var(--MainColors__BrandAccent);
+    padding: var(--M);
+    border-radius: var(--XS);
+    margin: auto;
+    width: fit-content;
+    font-family: var(--FontFamilyBody);
+    font-size: var(--S);
+  }
 }
