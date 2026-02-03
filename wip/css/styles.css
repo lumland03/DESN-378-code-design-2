@@ -310,11 +310,11 @@ h3{
 nav{
   display: flex;
   flex-wrap: wrap;
-  padding: var(--L);
+  padding: var(--XS);
   margin-left: auto;
-  width: fit-content;
+  width: 100%;
   gap: var(--S);
-  height: fit-content;
+  height: 10%;
 }
 
 nav button{
@@ -344,7 +344,7 @@ main{
   margin-left: auto;
   margin-right: auto;
   padding: var(--S);
-  max-width: 95%;
+  max-width: 100%;
 }
 
 
@@ -383,7 +383,7 @@ p{
   flex-shrink: 0;
 }
 .image-me img{
-  width: 30px;
+  width: 15px;
   border-radius: var(--S);
 }
 /* Project Box Styles ------------------*/
