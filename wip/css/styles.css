@@ -175,7 +175,7 @@ p{
 #projects{
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
-  gap: var(--L);
+  gap: var(--S);
   width: 100%;
   justify-content: flex-start;
   align-items: center;
@@ -183,7 +183,8 @@ p{
 }
 
 .project-box{
-  display: contents;
+  display: flex;
+  gap: 75%;
 }
 
 .project-box div{
@@ -199,8 +200,9 @@ p{
 
 .project-line{
   border-top: 3px dotted var(--MainColors__BrandAccent);
-  flex-grow: 1;
+  flex-grow: 0;
   margin: 0;
+  justify-self: center;
   align-self: center;
   height: 1px;
 }
@@ -209,7 +211,9 @@ p{
   color: var(--MainColors__BodyText);
 }
 
-
+#projects p{
+  text-align: end;
+}
 
 
 /* Footer Styles ------------------*/
