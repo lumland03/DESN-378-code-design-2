@@ -152,4 +152,56 @@ Don't quite understand how JS toggles CSS and can swap back and forth between di
 
 ---
 
+​
+## Week 3 
+​
+### What I Learned
+Learned how to use design tokens and theme switching with JavaScript and CSS. Used figma to create variables and then exported them to CSS.
+Learned how to use localStorage to save preferences for themes. ​
+​
+​
+### What Was Hard
+My main struggls were trying to understand how figma wanted me to create the variables and trying to figure out why they werent working when I exported them to CSS.
+​
+​
+### How I Used AI
+I used AI just to autofill some code here and there, but mainly to help me understand why some of my code wasnt working and what I was missing.
+​
+​
+### What's Still Unclear
+I need more practive with figma so I can fully use the design tokens.
+​
+​
+
+### Work Completed (Week 3)
+
+**Design Tokens**
+- [X] variables.css exists
+- [X] Color tokens defined
+- [X] Typography tokens defined
+- [ ] Spacing tokens defined - Need to create
+- [ ] Tokens used in CSS (no hardcoded values) - Halfway there
+
+**Theme System**
+- [X] Uses data-theme on <html>
+- [X] Toggle feedback is immediate
+
+**Persistence & Preference**
+- [X] Theme saved to localStorage
+- [X] Theme persists on refresh
+- [x] System preference used on first visit
+
+**Deployment**
+- [X] Deployed to GitHub Pages
+- [X] Repository is public
+
+
+
+
+
+
+
+
+
+
 *This README will evolve. At quarter's end, it transforms into a portfolio landing page.*

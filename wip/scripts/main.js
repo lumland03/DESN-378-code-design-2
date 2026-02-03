@@ -1,6 +1,6 @@
 
 const savedTheme = localStorage.getItem('theme');
-if (savedTheme) {
+if (savedTheme) {  
   // User has made a choice — respect it
   document.documentElement.dataset.theme = savedTheme;
 } else {
