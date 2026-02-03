@@ -350,8 +350,8 @@ main{
 
 .page-line{
   border-top: 4px solid var(--MainColors__BrandAccent);
-  margin-top: var(--XXXL);
-  margin-bottom: var(--XXXL);
+  margin-top: var(--XL);
+  margin-bottom: var(--XL);
 }
 
 
@@ -364,6 +364,7 @@ p{
 
 #bio{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
   gap: var(--S);
@@ -462,5 +463,14 @@ footer{
     width: fit-content;
     font-family: var(--FontFamilyBody);
     font-size: var(--S);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-in,
+  .slide-up,
+  .theme-transition {
+    transition: none;
+    animation: none;
   }
 }
