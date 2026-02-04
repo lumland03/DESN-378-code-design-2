@@ -185,6 +185,9 @@ p{
 .project-box{
   display: flex;
   gap: 75%;
+  margin-bottom: var(--L);
+  margin-top: var(--L);
+  
 }
 
 .project-box div{
@@ -192,6 +195,7 @@ p{
   padding: var(--S);
   border-radius: var(--XS);
   width: fit-content;
+  height: fit-content;
   margin-bottom: 0;
   font-size: var(--M);
   font-family: var(--FontFamilyBody)
@@ -213,6 +217,8 @@ p{
 
 #projects p{
   text-align: end;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 
@@ -261,7 +267,7 @@ footer{
 
 /* Mobile Styles ------------------*/
 
-@mobile (max-width: 768px) {
+@media (max-width: 900px) {
   
   header{
   display: flex;
@@ -290,7 +296,7 @@ footer{
 
 h1{
   font-family: var(--FontFamilyHeadings);
-  font-size: var(--L);
+  font-size: var(--M);
   margin: 0;
 }
 
@@ -315,17 +321,18 @@ nav{
   display: flex;
   flex-wrap: wrap;
   padding: var(--XS);
-  margin-left: auto;
+  margin-left: var(--XS);
   width: 100%;
-  gap: var(--S);
+  gap: var(--XS);
   height: 10%;
+  justify-content: left;
 }
 
 nav button{
   background-color: var(--MainColors__BrandAccent);
   color: var(--MainColors__HeadFootText);
   border: none;
-  padding: var(--S);
+  padding: var(--XS);
   font-size: var(--XS);
   font-family: var(--FontFamilyBody);
   cursor: pointer;
@@ -361,7 +368,7 @@ main{
 
 p{
   font-family: var(--FontFamilyBody);
-  font-size: var(--XXS);
+  font-size: var(--XS);
   line-height: 1.6;
   margin-bottom: var(--S);
 }
@@ -376,7 +383,7 @@ p{
 }
 
 #bio p{
-  width: 90%;
+  width: 100%;
   padding-right: var(--S);
   margin-top: var(--S);
 }
@@ -384,10 +391,9 @@ p{
 .image-me{
   display: flex;
   justify-content: center;
-  flex-shrink: 0;
 }
 .image-me img{
-  width: 15px;
+  width: 200px;
   border-radius: var(--S);
 }
 /* Project Box Styles ------------------*/
@@ -397,7 +403,7 @@ p{
 #projects{
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
-  gap: var(--S);
+  gap: var(--XS);
   width: 100%;
   justify-content: flex-start;
   align-items: center;
@@ -405,7 +411,11 @@ p{
 }
 
 .project-box{
-  display: contents;
+  display: flex;
+  gap: 50%;
+  margin-bottom: var(--S);
+  margin-top: var(--S);
+  
 }
 
 .project-box div{
@@ -413,16 +423,30 @@ p{
   padding: var(--S);
   border-radius: var(--XS);
   width: fit-content;
+  height: fit-content;
   margin-bottom: 0;
   font-size: var(--XS);
   font-family: var(--FontFamilyBody)
   
 }
 
-
+.project-line{
+  border-top: 3px dotted var(--MainColors__BrandAccent);
+  flex-grow: 0;
+  margin: 0;
+  justify-self: center;
+  align-self: center;
+  height: 1px;
+}
 
 #projects a {
   color: var(--MainColors__BodyText);
+}
+
+#projects p{
+  text-align: end;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 
@@ -459,9 +483,9 @@ footer{
   #socials{
     display: flex;
     justify-content: center;
-    gap: var(--FXL);
+    gap: var(--XL);
     background-color: var(--MainColors__BrandAccent);
-    padding: var(--M);
+    padding: var(--S);
     border-radius: var(--XS);
     margin: auto;
     width: fit-content;
