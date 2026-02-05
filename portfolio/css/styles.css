@@ -10,7 +10,10 @@ html{
 /* STYLES */
 
 body {
-  background-color: var(--MainColors__Bg);
+  background-color: var( --MainColors__Brand);
+  background-image: url("../assets/images/topo-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: var(--MainColors__BodyText);
   font-family: var(--font-primary);
   margin: 0;
@@ -123,11 +126,17 @@ a{
 
 
 main{
+  background-color: var(--MainColors__Bg) ;
   margin-left: auto;
   margin-right: auto;
   padding: var(--L);
+  max-width: 100%;
+}
+#testPage{
+  margin: auto;
   max-width: 70%;
 }
+
 
 
 .page-line{
@@ -228,11 +237,10 @@ p{
 
 footer{
   display: block;
-  background-color: var( --MainColors__Brand);
+  
   color: var(--MainColors__HeadFootText);
-  background-image: url("../assets/images/topo-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+ 
+ 
   width: 100%;
   text-align: center;
   padding: var(--L);
