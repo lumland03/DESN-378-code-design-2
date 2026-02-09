@@ -37,7 +37,28 @@ body {
   --MainColors__Neutrals__DarkModeElementBg:#d9d9d9;
 }
 
+/* Icon Styles ------------------*/
+.sun-icon{
+  fill: none;
+  stroke: black;
+  stroke-width: 3px;
+}
+#sun-ray{
+  stroke: black;
+  stroke-width: 3px;
+  stroke-linecap: round;
+}
 
+.system-icon{
+  fill: none;
+  stroke: black;
+  stroke-width: 5px;
+}
+
+#system-tooth{
+  stroke: black;
+  stroke-width: 5px;
+}
 
 
 
@@ -120,10 +141,22 @@ a{
 }
 
 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
 
+}
 
+.dropdown:hover .dropdown-content{
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+max-width: var(--XS);
+margin:auto;
+}
 
-
+/* Main Content Styles ------------------*/
 
 main{
   background-color: var(--MainColors__Bg) ;
