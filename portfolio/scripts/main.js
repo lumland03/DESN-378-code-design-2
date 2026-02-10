@@ -61,21 +61,6 @@ systemToggle.addEventListener('click', function()
 
 
 
-// Don't copy this directly—translate it into working JavaScript:
-// ```
-// function getAppliedTheme(storedPreference):
-//     if storedPreference is "light":
-//         return "light"
-//     if storedPreference is "dark":
-//         return "dark"
-//     if storedPreference is "system" OR storedPreference is empty:
-//         check OS preference
-//         return "dark" if OS prefers dark, else "light"
 
-// on page load:
-//     read stored preference from localStorage
-//     apply the resolved theme to the page
 
-// when user clicks an option:
-//     store their CHOICE (not the resolved theme)
-//     apply the resolved theme to the page
+
