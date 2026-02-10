@@ -152,9 +152,11 @@ a{
 display:flex;
 flex-direction: row;
 flex-wrap: wrap;
-max-width: var(--XS);
+max-width: fit-content;
 margin:auto;
+padding: 0;
 }
+
 
 /* Main Content Styles ------------------*/
 
