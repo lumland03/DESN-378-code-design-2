@@ -30,6 +30,16 @@ if (savedTheme) {
 // });
 
 
+const toggle = document.querySelector('.theme-toggle');
+toggle.addEventListener('click', functon() {
+
+
+}
+);
+
+
+
+
 const lightToggle = document.querySelector('.light') 
 const darkToggle = document.querySelector('.dark') 
 const systemToggle = document.querySelector('.system') 
