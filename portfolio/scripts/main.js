@@ -30,12 +30,8 @@ if (savedTheme) {
 // });
 
 
-const toggle = document.querySelector('.theme-toggle');
-toggle.addEventListener('click', functon() {
-
-
-}
-);
+// const toggle = document.querySelector('.theme-toggle');
+// toggle.addEventListener('click', function() {});
 
 
 
@@ -64,8 +60,7 @@ systemToggle.addEventListener('click', function()
   if (prefersDark) {
     document.documentElement.dataset.theme = 'dark';
   } else {  document.documentElement.dataset.theme = 'light';
-}
-});
+}});
 
 
 
