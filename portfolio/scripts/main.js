@@ -35,21 +35,31 @@ if (savedTheme) {
 
 
 
+const themeToggle = document.querySelector('.theme-toggle');
+const dropdownContent = document.querySelector('.dropdown-content');
 const lightToggle = document.querySelector('.light') 
 const darkToggle = document.querySelector('.dark') 
 const systemToggle = document.querySelector('.system') 
 
-// lightToggle.addEventListener('click', function() {
-//   document.documentElement.dataset.theme = 'light';
-//   localStorage.setItem('theme', 'light');  // NEW: Save to memory
-// }
-// );
+// Toggle dropdown on button click
+themeToggle.addEventListener('click', function() {
+  dropdownContent.classList.toggle('active');
+});
 
-// darkToggle.addEventListener('click', function() {
-//   document.documentElement.dataset.theme = 'dark';
-//   localStorage.setItem('theme', 'dark');  // NEW: Save to memory
-// }
-// );
+// Close dropdown when a theme is selected
+[lightToggle, darkToggle, systemToggle].forEach(button => {
+  button.addEventListener('click', function() {
+    dropdownContent.classList.remove('active');
+  });
+});
+
+lightToggle.addEventListener('click', function() {
+  setTheme('light');
+});
+
+darkToggle.addEventListener('click', function() {
+  setTheme('dark');
+});
 
 systemToggle.addEventListener('click', function() {
   localStorage.setItem('theme', 'system');
@@ -70,6 +80,14 @@ function setTheme(theme) {
       this.click();
     }
   });
+});
+
+// Close dropdown when clicking outside
+document.addEventListener('click', function(e) {
+  const dropdown = document.querySelector('.dropdown');
+  if (!dropdown.contains(e.target)) {
+    dropdownContent.classList.remove('active');
+  }
 });
 
 

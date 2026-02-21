@@ -145,16 +145,15 @@ a{
   display: none;
   position: absolute;
   background-color: transparent;
-
 }
 
-.dropdown:hover .dropdown-content{
-display:flex;
-flex-direction: row;
-flex-wrap: wrap;
-max-width: fit-content;
-margin:auto;
-padding: 0;
+.dropdown-content.active {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: fit-content;
+  margin: auto;
+  padding: 0;
 }
 
 
