@@ -4,39 +4,43 @@
   --Brand__TextColor: var(--Primitives__Grey-100);
   --Brand__PrimaryGrey2: var(--Primitives__Grey-300);
   --Brand__PrimaryGrey3: var(--Primitives__Grey-400);
-  --Brand__BrandAccent: var(--Colors__Primary-Blue-50);
-  --Colors__PrimaryBlue50:#004d69;
-  --Colors__PrimaryBlue10:#9efff4;
+  --Brand__BrandAccent: var(--Colors__PrimaryBlue-50);
+  --Colors__PrimaryBlue-50:#004d69;
+  --Colors__PrimaryBlue-10:#9efff4;
 }
 
-.Variables primitives{
-  --Primitives__Grey100:#f8f8f8;
-  --Primitives__Grey200:#eeeeee;
-  --Primitives__Grey300:#d9d9d9;
-  --Primitives__Grey400:#8e8e8e;
-  --Primitives__Grey500:#535353;
-  --Primitives__Grey600:#353535;
-  --Primitives__Grey700:#1a1a1a;
+:root{
+  --Primitives__Grey-100:#f8f8f8;
+  --Primitives__Grey-200:#eeeeee;
+  --Primitives__Grey-300:#d9d9d9;
+  --Primitives__Grey-400:#8e8e8e;
+  --Primitives__Grey-500:#535353;
+  --Primitives__Grey-600:#353535;
+  --Primitives__Grey-700:#1a1a1a;
 }
 
-.Variables sizes{
-  --Sizes__XS:4;
-  --Sizes__S:8;
-  --Sizes__M:16;
-  --Sizes__L:24;
-  --Sizes__XL:32;
-  --Sizes__2XL:48;
+:root{
+  --Sizes__XS:4px;
+  --Sizes__S:8px;
+  --Sizes__M:16px;
+  --Sizes__L:24px;
+  --Sizes__XL:32px;
+  --Sizes__2XL:48px;
 }
 
-.Variables spacing{
-  --SpacingXS:0.5;
-  --SpacingS:1;
-  --SpacingM:1.5;
-  --Spacing3XL:3;
-  --SpacingL:2;
-  --Spacing2XL:2.5;
-  --Spacing4XL:4;
-  --Spacing5XL:6;
+:root{
+  --SpacingXS:0.5rem;
+  --SpacingS:1rem;
+  --SpacingM:1.5rem;
+  --Spacing3XL:3rem;
+  --SpacingL:2rem;
+  --Spacing2XL:2.5rem;
+  --Spacing4XL:4rem;
+  --Spacing5XL:6rem;
 }
 
+:root{
+  --FontFamilyHeading: 'Goldman', sans-serif;
+  --FontFamilyBody: 'Agdasima', sans-serif;
+}
 

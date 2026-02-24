@@ -32,5 +32,35 @@
 /* Main styles */
 
 body{
-  background-color: var(--Brand__PrimaryGrey1); 
+  display: flex; 
+  background-color: var(--Brand__SurfaceColor); 
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: transparent;
+
+}
+.dropdown-content.active {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: fit-content;
+  margin: auto;
+  padding: 0;
+}
+
+
+
+
+/* headings */
+
+
+
+h1{
+  color: var(--Brand__TextColor);
+  font-size: var(--Sizes__2XL);
+  margin-bottom: var(--SpacingL);
+  font-family: var(--FontFamilyHeading);
 }
