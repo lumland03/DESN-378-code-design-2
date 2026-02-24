@@ -31,3 +31,6 @@
 
 /* Main styles */
 
+body{
+  background-color: var(--Brand__SurfaceColor); 
+}
