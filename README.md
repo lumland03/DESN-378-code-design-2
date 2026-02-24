@@ -20,79 +20,71 @@ This is my workspace for **DESN 378 Code + Design 2** also known as **Web Design
 
 ---
 # Learning Log
+
 ​
-## Week 0
+## Week 5-6
 ​
 ### What I Learned
-I learned the basics of JavaScript. I learned how to declare variables using let and const, and how to add to scripts and combine them.
+I learned about SVGs and how to create them and anything I can think of with code.
 ​
 ​
 ### What Was Hard
-The hard part was trying to understand how different things worked. Learning different commands or code things was also difficult. Trying to manage my mental 
-workload was also a challenge between other classes. 
+It is a lot of work to try to remember how to code all of the different shapes and paths. I have to keep referencing
+how to create them and the different ways that they work.
 ​
 ​
 ### How I Used AI
-I did not (because I am dumb and also stubborn)
+N/A
 ​
 ​
 ### What's Still Unclear
-I need to reinforce what I already know, and start to commit different functions to memory. I am still hazy on some of the code from some of the assignments, and need to
-understand rather than just look at it and pretend that I totally understand. I took notes, but I haven't yet memorized the concepts that I wrote down. ​
+Honestly I still struggle with exactly how viewbox works I think I sorta get it but not 100%.
+
+---​
 ​
-### Work Completed (Week 0)
+## Week 3 
 ​
-**Engage**
-- [X] Portfolio Audit
+### What I Learned
+Learned how to use design tokens and theme switching with JavaScript and CSS. Used figma to create variables and then exported them to CSS.
+Learned how to use localStorage to save preferences for themes. ​
 ​
-**Learn**
-- [ ] Console Explorer
-- [X] Codedex Console Fundamentals
 ​
-**Reflect**
-- [X] Visual Notes: Variables and Strings
+### What Was Hard
+My main struggls were trying to understand how figma wanted me to create the variables and trying to figure out why they werent working when I exported them to CSS.
 ​
-**Build**
-- [X] The Setup
-- [X] The Behavioral Layer
 ​
+### How I Used AI
+I used AI just to autofill some code here and there, but mainly to help me understand why some of my code wasnt working and what I was missing.
+​
+​
+### What's Still Unclear
+I need more practive with figma so I can fully use the design tokens.
+​
+​
+
+### Work Completed (Week 3)
+
+**Design Tokens**
+- [X] variables.css exists
+- [X] Color tokens defined
+- [X] Typography tokens defined
+- [ ] Spacing tokens defined - Need to create
+- [ ] Tokens used in CSS (no hardcoded values) - Halfway there
+
+**Theme System**
+- [X] Uses data-theme on <html>
+- [X] Toggle feedback is immediate
+
+**Persistence & Preference**
+- [X] Theme saved to localStorage
+- [X] Theme persists on refresh
+- [x] System preference used on first visit
+
+**Deployment**
+- [X] Deployed to GitHub Pages
+- [X] Repository is public​
 ---
-## Week 1
-​
-### What I Learned
-<!-- What concepts clicked for you? What was new? -->
-Javascript was a very new concept for me and felt more like backend coding than coding a website. Some basic commands clicked but a lot of other stuff hasn't yet. ​
-​
-### What Was Hard
-<!-- What frustrated you? What didn't make sense? -->
-Trying to learn another language that feels nothing like the other two has been very annoying. ​
-​
-### How I Used AI
-<!-- Did you use Copilot, ChatGPT, etc.? How did it help or not help? -->
-I used a lot of AI to understand why some code worked and some did not. It was helpful making stuff look nice and work correctly.​
-​
-### What's Still Unclear
-<!-- What questions do you still have? What needs more practice? -->
-I just need to reinforce the basics and the rest will come with time and practice. ​
-​
-### Work Completed (Week 1)
 
-**Engage**
-- [X] VS Code Theme Setup
-
-**Learn**
-- [X] Codedex.io Variables
-- [X] HTML Academy 
-
-**Practice**
-- [X] The Story Teller
-
-**Build**
-- [X] Portfolio Migration
-- [X] Portfolio in Figma + Style Tile
-
-**Reflect**
-- [X] Visual Notes: Week 1---
 
 ---
 ​
@@ -152,49 +144,79 @@ Don't quite understand how JS toggles CSS and can swap back and forth between di
 
 ---
 
-​
-## Week 3 
+## Week 1
 ​
 ### What I Learned
-Learned how to use design tokens and theme switching with JavaScript and CSS. Used figma to create variables and then exported them to CSS.
-Learned how to use localStorage to save preferences for themes. ​
+<!-- What concepts clicked for you? What was new? -->
+Javascript was a very new concept for me and felt more like backend coding than coding a website. Some basic commands clicked but a lot of other stuff hasn't yet. ​
+​
+### What Was Hard
+<!-- What frustrated you? What didn't make sense? -->
+Trying to learn another language that feels nothing like the other two has been very annoying. ​
+​
+### How I Used AI
+<!-- Did you use Copilot, ChatGPT, etc.? How did it help or not help? -->
+I used a lot of AI to understand why some code worked and some did not. It was helpful making stuff look nice and work correctly.​
+​
+### What's Still Unclear
+<!-- What questions do you still have? What needs more practice? -->
+I just need to reinforce the basics and the rest will come with time and practice. ​
+​
+### Work Completed (Week 1)
+
+**Engage**
+- [X] VS Code Theme Setup
+
+**Learn**
+- [X] Codedex.io Variables
+- [X] HTML Academy 
+
+**Practice**
+- [X] The Story Teller
+
+**Build**
+- [X] Portfolio Migration
+- [X] Portfolio in Figma + Style Tile
+
+**Reflect**
+- [X] Visual Notes: Week 1
+
+---
+
+## Week 0
+​
+### What I Learned
+I learned the basics of JavaScript. I learned how to declare variables using let and const, and how to add to scripts and combine them.
 ​
 ​
 ### What Was Hard
-My main struggls were trying to understand how figma wanted me to create the variables and trying to figure out why they werent working when I exported them to CSS.
+The hard part was trying to understand how different things worked. Learning different commands or code things was also difficult. Trying to manage my mental 
+workload was also a challenge between other classes. 
 ​
 ​
 ### How I Used AI
-I used AI just to autofill some code here and there, but mainly to help me understand why some of my code wasnt working and what I was missing.
+I did not (because I am dumb and also stubborn)
 ​
 ​
 ### What's Still Unclear
-I need more practive with figma so I can fully use the design tokens.
+I need to reinforce what I already know, and start to commit different functions to memory. I am still hazy on some of the code from some of the assignments, and need to
+understand rather than just look at it and pretend that I totally understand. I took notes, but I haven't yet memorized the concepts that I wrote down. ​
 ​
+### Work Completed (Week 0)
 ​
-
-### Work Completed (Week 3)
-
-**Design Tokens**
-- [X] variables.css exists
-- [X] Color tokens defined
-- [X] Typography tokens defined
-- [ ] Spacing tokens defined - Need to create
-- [ ] Tokens used in CSS (no hardcoded values) - Halfway there
-
-**Theme System**
-- [X] Uses data-theme on <html>
-- [X] Toggle feedback is immediate
-
-**Persistence & Preference**
-- [X] Theme saved to localStorage
-- [X] Theme persists on refresh
-- [x] System preference used on first visit
-
-**Deployment**
-- [X] Deployed to GitHub Pages
-- [X] Repository is public
-
+**Engage**
+- [X] Portfolio Audit
+​
+**Learn**
+- [ ] Console Explorer
+- [X] Codedex Console Fundamentals
+​
+**Reflect**
+- [X] Visual Notes: Variables and Strings
+​
+**Build**
+- [X] The Setup
+- [X] The Behavioral Layer
 
 
 
