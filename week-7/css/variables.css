@@ -1,0 +1,42 @@
+:root{
+  --Brand__PrimaryGrey1:var(--Primitives__Grey-500);
+  --Brand__SurfaceColor:var(--Primitives__Grey-600);
+  --Brand__TextColor:var(--Primitives__Grey-100);
+  --Brand__PrimaryGrey2:var(--Primitives__Grey-300);
+  --Brand__PrimaryGrey3:var(--Primitives__Grey-400);
+  --Brand__BrandAccent:var(--Colors__Primary-Blue-50);
+  --Colors__PrimaryBlue50:#004d69;
+  --Colors__PrimaryBlue10:#9efff4;
+}
+
+:primatives{
+  --Primitives__Grey100:#f8f8f8;
+  --Primitives__Grey200:#eeeeee;
+  --Primitives__Grey300:#d9d9d9;
+  --Primitives__Grey400:#8e8e8e;
+  --Primitives__Grey500:#535353;
+  --Primitives__Grey600:#353535;
+  --Primitives__Grey700:#1a1a1a;
+}
+
+:sizes{
+  --Sizes__XS:4;
+  --Sizes__S:8;
+  --Sizes__M:16;
+  --Sizes__L:24;
+  --Sizes__XL:32;
+  --Sizes__2XL:48;
+}
+
+:spacing{
+  --SpacingXS:0.5;
+  --SpacingS:1;
+  --SpacingM:1.5;
+  --Spacing3XL:3;
+  --SpacingL:2;
+  --Spacing2XL:2.5;
+  --Spacing4XL:4;
+  --Spacing5XL:6;
+}
+
+
