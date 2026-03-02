@@ -28,6 +28,28 @@
   font-style: normal;
 }
 
+[data-theme="dark"]{
+  --Brand__PrimaryGrey1: var(--Primitives__Grey-500);
+  --Brand__PrimaryGrey2: var(--Primitives__Grey-300);
+  --Brand__PrimaryGrey3: var(--Primitives__Grey-400);
+  --Brand__SurfaceColor: var(--Primitives__Grey-600);
+  --Brand__TextColor: var(--Primitives__Grey-100);
+  --Brand__BrandAccent: var(--Colors__PrimaryBlue-50);
+}
+
+[data-theme="light"]{
+  --Brand__PrimaryGrey1: var(--Primitives__Grey-300);
+  --Brand__PrimaryGrey2: var(--Primitives__Grey-400);
+  --Brand__PrimaryGrey3: var(--Primitives__Grey-500);
+  --Brand__SurfaceColor: var(--Primitives__Grey-100);
+  --Brand__TextColor: var(--Primitives__Grey-700);
+  --Brand__BrandAccent: var(--Colors__PrimaryBlue-10);
+}
+
+
+
+
+
 
 /* Main styles */
 
@@ -38,22 +60,71 @@ body{
   gap: var(--SpacingM);
   overflow-x: hidden;
   background-color: var(--Brand__SurfaceColor); 
+  justify-content: flex-end;
 }
+
+header{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  overflow: visible;
+
+
+}
+
+
+.nav-button{
+  background-color: var(--Brand__BrandAccent);
+  color: var(--Brand__TextColor);
+  border: none;
+  font-size: var(--Sizes__XL);
+  cursor: pointer;
+  font-family: var(--FontFamilyHeading);
+  padding: var(--SpacingS)
+  
+}
+
+.dropdown{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 25%;
+  margin-left: 68%;
+  
+  
+}
+
+
+a{
+  text-decoration: none;
+  color: var(--Brand__TextColor);
+}
+
 
 .dropdown-content{
   display: none;
   position: absolute;
-  background-color: transparent;
+  background-color: var(--Brand__BrandAccent);
 
 }
 .dropdown-content.active {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  max-width: fit-content;
+  gap: var(--SpacingM);
   margin: auto;
   padding: 0;
+  justify-content: flex-start;
+  font-family: var(--FontFamilyHeading);
+  cursor: pointer;
+  font-size: var(--Sizes__L);
+  color: var(--Brand__TextColor);
+  padding: var(--Sizes__L);
+  text-align: center ;
 }
+
 
 /* headings */
 

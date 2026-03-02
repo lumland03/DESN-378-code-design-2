@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../scripts/main.js" defer></script>
+    <script src="../scrollyteller/scripts/main.js" defer></script>
     <link rel="stylesheet" href="../scrollyteller/css/normalize.css">
     <link rel="stylesheet" href="../scrollyteller/css/styles.css">
 
@@ -16,16 +16,18 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="nav-bar">
             <button class="nav-button" id="top-button">
-                Back to Top
+               <a href="#intro-section">Back to Top</a>
             </button>
-            <button class="nav-button" id="theme-toggle">Theme</button>
+            <button class="nav-button" id="theme-toggle">
+                Theme
+            </button>
                 <div class="dropdown">
                     <div class="dropdown-content">
-                        <button id="light-theme">Light</button>
-                        <button id="dark-theme">Dark</button>
-                        <button id="system-theme">System</button>
+                        <div id="light-theme" data-theme="light">Light</div>
+                        <div id="dark-theme" data-theme="dark">Dark</div>
+                        <div id="system-theme" data-theme="system">System</div>
                     </div>
                 </div>
         </nav>
